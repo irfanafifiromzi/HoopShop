@@ -15,17 +15,17 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'name'=> 'Ball',
-            'slug'=> 'nike'
+            'slug'=> 'ball'
         ]);
 
         Category::create([
             'name'=> 'Jersey',
-            'slug'=> 'adidas'
+            'slug'=> 'jersey'
         ]);
 
         Category::create([
             'name'=> 'Shoe',
-            'slug'=> 'lining'
+            'slug'=> 'shoe'
         ]);
     }
 }
