@@ -53,7 +53,7 @@ Route::middleware(['auth', EnsureAdmin::class])
 
     //Product routes
     Route::get('/products',[ProductController::class,'index'])->name('admin.products.index');        
-
+    Route::get('/products/store',[ProductController::class,'store'])->name('admin.products.store');
 
 // end
 
